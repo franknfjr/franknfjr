@@ -1,11 +1,11 @@
 
 
 ```elixir
-defmodule Greeter do
+defmodule Say do
   def hello(name), do: "Hello, " <> name <> " 👋"
 end
 
-Greeter.hello("Frank Ferreira")
+Say.hello("Frank Ferreira")
 "Hello, Frank Ferreira 👋"
 ```
 # Frank Ferreira
